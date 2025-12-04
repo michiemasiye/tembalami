@@ -39,6 +39,11 @@ const masterclasses = [
 ]
 
 const galleryImages = [
+  "/inspired-worship/class-1.jpg",
+  "/inspired-worship/class-2.jpg",
+  "/inspired-worship/class-3.jpg",
+  "/inspired-worship/class-4.jpg",
+  "/inspired-worship/class-5.jpg",
   "/images/img-20251201-wa0019.jpg",
   "/images/img-20251201-wa0023.jpg",
   "/images/img-20251201-wa0020.jpg",

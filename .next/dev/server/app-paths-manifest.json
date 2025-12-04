@@ -1,8 +1,5 @@
 {
-  "/about/page": "app/about/page.js",
-  "/contact/page": "app/contact/page.js",
   "/inspired-worship/page": "app/inspired-worship/page.js",
-  "/music/page": "app/music/page.js",
-  "/page": "app/page.js",
-  "/partnerships/page": "app/partnerships/page.js"
+  "/merchandise/page": "app/merchandise/page.js",
+  "/page": "app/page.js"
 }

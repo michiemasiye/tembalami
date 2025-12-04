@@ -421,6 +421,11 @@ const masterclasses = [
     }
 ];
 const galleryImages = [
+    "/inspired-worship/class-1.jpg",
+    "/inspired-worship/class-2.jpg",
+    "/inspired-worship/class-3.jpg",
+    "/inspired-worship/class-4.jpg",
+    "/inspired-worship/class-5.jpg",
     "/images/img-20251201-wa0019.jpg",
     "/images/img-20251201-wa0023.jpg",
     "/images/img-20251201-wa0020.jpg",
@@ -435,7 +440,7 @@ function InspiredWorshipPage() {
                 variant: "dark"
             }, void 0, false, {
                 fileName: "[project]/app/inspired-worship/page.tsx",
-                lineNumber: 53,
+                lineNumber: 58,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -452,20 +457,20 @@ function InspiredWorshipPage() {
                                 priority: true
                             }, void 0, false, {
                                 fileName: "[project]/app/inspired-worship/page.tsx",
-                                lineNumber: 58,
+                                lineNumber: 63,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute inset-0 bg-secondary/80"
                             }, void 0, false, {
                                 fileName: "[project]/app/inspired-worship/page.tsx",
-                                lineNumber: 65,
+                                lineNumber: 70,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/inspired-worship/page.tsx",
-                        lineNumber: 57,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -478,7 +483,7 @@ function InspiredWorshipPage() {
                                     children: "Training & Equipping"
                                 }, void 0, false, {
                                     fileName: "[project]/app/inspired-worship/page.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 74,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -486,7 +491,7 @@ function InspiredWorshipPage() {
                                     children: "Inspired Worship"
                                 }, void 0, false, {
                                     fileName: "[project]/app/inspired-worship/page.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 75,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -494,7 +499,7 @@ function InspiredWorshipPage() {
                                     children: "A worship and training experience designed to uplift the standard of worship ministry in Zimbabwe and beyond."
                                 }, void 0, false, {
                                     fileName: "[project]/app/inspired-worship/page.tsx",
-                                    lineNumber: 71,
+                                    lineNumber: 76,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -504,29 +509,29 @@ function InspiredWorshipPage() {
                                         children: "Launched June 2022"
                                     }, void 0, false, {
                                         fileName: "[project]/app/inspired-worship/page.tsx",
-                                        lineNumber: 76,
+                                        lineNumber: 81,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/inspired-worship/page.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 80,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/inspired-worship/page.tsx",
-                            lineNumber: 68,
+                            lineNumber: 73,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/inspired-worship/page.tsx",
-                        lineNumber: 67,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/inspired-worship/page.tsx",
-                lineNumber: 56,
+                lineNumber: 61,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -543,7 +548,7 @@ function InspiredWorshipPage() {
                                         children: "The Vision"
                                     }, void 0, false, {
                                         fileName: "[project]/app/inspired-worship/page.tsx",
-                                        lineNumber: 87,
+                                        lineNumber: 92,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -551,7 +556,7 @@ function InspiredWorshipPage() {
                                         children: "Restoring Excellence to Worship"
                                     }, void 0, false, {
                                         fileName: "[project]/app/inspired-worship/page.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 93,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -559,7 +564,7 @@ function InspiredWorshipPage() {
                                         children: "At its core, Inspired Worship is more than just an annual gathering — it's a movement to restore excellence, purpose, and depth to the ministry of worship."
                                     }, void 0, false, {
                                         fileName: "[project]/app/inspired-worship/page.tsx",
-                                        lineNumber: 89,
+                                        lineNumber: 94,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -567,7 +572,7 @@ function InspiredWorshipPage() {
                                         children: "It offers an opportunity for churches and individuals alike to rethink how they approach worship, to be inspired by those who have gone ahead, and to build capacity for future generations of worshipers."
                                     }, void 0, false, {
                                         fileName: "[project]/app/inspired-worship/page.tsx",
-                                        lineNumber: 93,
+                                        lineNumber: 98,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("blockquote", {
@@ -579,19 +584,19 @@ function InspiredWorshipPage() {
                                                 children: "— Tembalami"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/inspired-worship/page.tsx",
-                                                lineNumber: 100,
+                                                lineNumber: 105,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/inspired-worship/page.tsx",
-                                        lineNumber: 97,
+                                        lineNumber: 102,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/inspired-worship/page.tsx",
-                                lineNumber: 86,
+                                lineNumber: 91,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -603,28 +608,28 @@ function InspiredWorshipPage() {
                                     className: "object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/app/inspired-worship/page.tsx",
-                                    lineNumber: 104,
+                                    lineNumber: 109,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/inspired-worship/page.tsx",
-                                lineNumber: 103,
+                                lineNumber: 108,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/inspired-worship/page.tsx",
-                        lineNumber: 85,
+                        lineNumber: 90,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/inspired-worship/page.tsx",
-                    lineNumber: 84,
+                    lineNumber: 89,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/inspired-worship/page.tsx",
-                lineNumber: 83,
+                lineNumber: 88,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -640,7 +645,7 @@ function InspiredWorshipPage() {
                                     children: "What You'll Learn"
                                 }, void 0, false, {
                                     fileName: "[project]/app/inspired-worship/page.tsx",
-                                    lineNumber: 119,
+                                    lineNumber: 124,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -648,13 +653,13 @@ function InspiredWorshipPage() {
                                     children: "Masterclasses"
                                 }, void 0, false, {
                                     fileName: "[project]/app/inspired-worship/page.tsx",
-                                    lineNumber: 120,
+                                    lineNumber: 125,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/inspired-worship/page.tsx",
-                            lineNumber: 118,
+                            lineNumber: 123,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -666,7 +671,7 @@ function InspiredWorshipPage() {
                                             className: "h-10 w-10 text-primary mb-4"
                                         }, void 0, false, {
                                             fileName: "[project]/app/inspired-worship/page.tsx",
-                                            lineNumber: 129,
+                                            lineNumber: 134,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
@@ -674,7 +679,7 @@ function InspiredWorshipPage() {
                                             children: item.title
                                         }, void 0, false, {
                                             fileName: "[project]/app/inspired-worship/page.tsx",
-                                            lineNumber: 130,
+                                            lineNumber: 135,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -682,29 +687,29 @@ function InspiredWorshipPage() {
                                             children: item.description
                                         }, void 0, false, {
                                             fileName: "[project]/app/inspired-worship/page.tsx",
-                                            lineNumber: 131,
+                                            lineNumber: 136,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, item.title, true, {
                                     fileName: "[project]/app/inspired-worship/page.tsx",
-                                    lineNumber: 125,
+                                    lineNumber: 130,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/inspired-worship/page.tsx",
-                            lineNumber: 123,
+                            lineNumber: 128,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/inspired-worship/page.tsx",
-                    lineNumber: 117,
+                    lineNumber: 122,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/inspired-worship/page.tsx",
-                lineNumber: 116,
+                lineNumber: 121,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -720,7 +725,7 @@ function InspiredWorshipPage() {
                                     children: "Moments"
                                 }, void 0, false, {
                                     fileName: "[project]/app/inspired-worship/page.tsx",
-                                    lineNumber: 142,
+                                    lineNumber: 147,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -728,13 +733,13 @@ function InspiredWorshipPage() {
                                     children: "Pictures from Classes"
                                 }, void 0, false, {
                                     fileName: "[project]/app/inspired-worship/page.tsx",
-                                    lineNumber: 143,
+                                    lineNumber: 148,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/inspired-worship/page.tsx",
-                            lineNumber: 141,
+                            lineNumber: 146,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -748,28 +753,28 @@ function InspiredWorshipPage() {
                                         className: "object-cover group-hover:scale-105 transition-transform duration-500"
                                     }, void 0, false, {
                                         fileName: "[project]/app/inspired-worship/page.tsx",
-                                        lineNumber: 149,
+                                        lineNumber: 154,
                                         columnNumber: 17
                                     }, this)
                                 }, index, false, {
                                     fileName: "[project]/app/inspired-worship/page.tsx",
-                                    lineNumber: 148,
+                                    lineNumber: 153,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/app/inspired-worship/page.tsx",
-                            lineNumber: 146,
+                            lineNumber: 151,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/inspired-worship/page.tsx",
-                    lineNumber: 140,
+                    lineNumber: 145,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/inspired-worship/page.tsx",
-                lineNumber: 139,
+                lineNumber: 144,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -782,7 +787,7 @@ function InspiredWorshipPage() {
                             children: "Ready to Elevate Your Worship Ministry?"
                         }, void 0, false, {
                             fileName: "[project]/app/inspired-worship/page.tsx",
-                            lineNumber: 164,
+                            lineNumber: 169,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -790,7 +795,7 @@ function InspiredWorshipPage() {
                             children: "Join us at the next Inspired Worship conference and be equipped to lead worship with excellence and anointing."
                         }, void 0, false, {
                             fileName: "[project]/app/inspired-worship/page.tsx",
-                            lineNumber: 165,
+                            lineNumber: 170,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
@@ -802,34 +807,34 @@ function InspiredWorshipPage() {
                                 children: "Get In Touch"
                             }, void 0, false, {
                                 fileName: "[project]/app/inspired-worship/page.tsx",
-                                lineNumber: 174,
+                                lineNumber: 179,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/inspired-worship/page.tsx",
-                            lineNumber: 169,
+                            lineNumber: 174,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/inspired-worship/page.tsx",
-                    lineNumber: 163,
+                    lineNumber: 168,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/inspired-worship/page.tsx",
-                lineNumber: 162,
+                lineNumber: 167,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                 fileName: "[project]/app/inspired-worship/page.tsx",
-                lineNumber: 179,
+                lineNumber: 184,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/inspired-worship/page.tsx",
-        lineNumber: 52,
+        lineNumber: 57,
         columnNumber: 5
     }, this);
 }

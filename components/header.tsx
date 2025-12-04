@@ -17,6 +17,7 @@ const navLinks = [
     ],
   },
   { href: "/inspired-worship", label: "Inspired Worship" },
+  { href: "/merchandise", label: "Merchandise" },
   { href: "/partnerships", label: "Partnerships" },
   { href: "/contact", label: "Contact" },
 ]
