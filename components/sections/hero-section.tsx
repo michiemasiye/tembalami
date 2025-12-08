@@ -40,8 +40,8 @@ export function HeroSection() {
       <div className="container mx-auto px-4 relative z-10 pt-24">
         <div className="max-w-2xl">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
-            <span className="text-primary">{displayedText}</span>
-            <span className="animate-pulse text-primary">|</span>
+            <span className="text-white">{displayedText}</span>
+            <span className="animate-pulse text-white">|</span>
           </h1>
 
           <blockquote className="text-white/90 font-mono text-lg md:text-xl mb-8 max-w-xl italic border-l-4 border-primary pl-4">

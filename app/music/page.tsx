@@ -5,6 +5,13 @@ import { Play } from "lucide-react"
 
 const albums = [
   {
+    title: "Christmas Kuvanhu",
+    year: "2025",
+    image: "/images/albums/christmas-kuvanhu.jpg",
+    description: "Festive Christmas album bringing joy and worship to the season",
+    link: "https://open.spotify.com/artist/4xKkR6aTDm0Qc9m9iXjMoZ",
+  },
+  {
     title: "Church on the Street",
     year: "2024",
     image: "/images/albums/church-on-the-street.jpg",
@@ -154,15 +161,30 @@ export default function MusicPage() {
         <div className="container mx-auto px-4 text-center">
           <h3 className="text-2xl font-bold text-secondary mb-8">Stream on Your Favorite Platform</h3>
           <div className="flex flex-wrap justify-center gap-8">
-            {["Spotify", "Apple Music", "YouTube Music", "Deezer"].map((platform) => (
-              <a
-                key={platform}
-                href="#"
-                className="text-muted-foreground hover:text-primary font-mono text-lg transition-colors"
-              >
-                {platform}
-              </a>
-            ))}
+            <a
+              href="https://open.spotify.com/artist/4xKkR6aTDm0Qc9m9iXjMoZ"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary font-mono text-lg transition-colors"
+            >
+              Spotify
+            </a>
+            <a
+              href="https://music.apple.com/zw/artist/tembalami/468105160"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary font-mono text-lg transition-colors"
+            >
+              Apple Music
+            </a>
+            <a
+              href="https://www.youtube.com/@tembalamimusic"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary font-mono text-lg transition-colors"
+            >
+              YouTube Music
+            </a>
           </div>
         </div>
       </section>

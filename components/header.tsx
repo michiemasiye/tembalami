@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { useState, useRef, useEffect } from "react"
 import { Menu, X, ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -47,9 +48,14 @@ export function Header({ variant = "dark" }: { variant?: "dark" | "light" }) {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-2xl md:text-3xl tracking-wide" style={{ fontFamily: "'Brush Script MT', cursive" }}>
-              Tembalami
-            </span>
+            <Image
+              src="/images/tembalami-logo-new.jpg"
+              alt="Tembalami"
+              width={150}
+              height={45}
+              className="h-10 md:h-12 w-auto object-contain"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}

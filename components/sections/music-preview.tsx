@@ -4,6 +4,11 @@ import Image from "next/image"
 
 const featuredAlbums = [
   {
+    title: "Christmas Kuvanhu",
+    year: "2025",
+    image: "/images/albums/christmas-kuvanhu.jpg",
+  },
+  {
     title: "Church on the Street",
     year: "2024",
     image: "/images/albums/church-on-the-street.jpg",
@@ -12,11 +17,6 @@ const featuredAlbums = [
     title: "Not Going Back",
     year: "2022",
     image: "/images/albums/not-going-back.jpg",
-  },
-  {
-    title: "The Fight",
-    year: "2018",
-    image: "/images/albums/the-fight.jpg",
   },
 ]
 

@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { Facebook, Instagram, Youtube, Twitter } from "lucide-react"
+import Image from "next/image"
+import { Facebook, Instagram, Youtube, Twitter, Music } from "lucide-react"
 
 const footerLinks = [
   { href: "/", label: "Home" },
@@ -15,6 +16,8 @@ const socialLinks = [
   { href: "https://www.instagram.com/tembalami", icon: Instagram, label: "Instagram" },
   { href: "https://www.youtube.com/@tembalamimusic", icon: Youtube, label: "YouTube" },
   { href: "https://www.twitter.com/TembalamiP", icon: Twitter, label: "Twitter" },
+  { href: "https://open.spotify.com/artist/4xKkR6aTDm0Qc9m9iXjMoZ", icon: Music, label: "Spotify" },
+  { href: "https://music.apple.com/zw/artist/tembalami/468105160", icon: Music, label: "Apple Music" },
 ]
 
 export function Footer() {
@@ -25,12 +28,13 @@ export function Footer() {
           {/* Logo & Tagline */}
           <div>
             <Link href="/" className="inline-block mb-4">
-              <span
-                className="text-3xl tracking-wide text-primary"
-                style={{ fontFamily: "'Brush Script MT', cursive" }}
-              >
-                Tembalami
-              </span>
+              <Image
+                src="/images/tembalami-logo.jpg"
+                alt="Tembalami"
+                width={150}
+                height={45}
+                className="h-12 w-auto object-contain invert"
+              />
             </Link>
             <p className="text-white/70 font-mono text-sm">Spreading the Gospel through worship and music ministry.</p>
           </div>
