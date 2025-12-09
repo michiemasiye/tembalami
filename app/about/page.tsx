@@ -8,12 +8,12 @@ export default function AboutPage() {
       <Header variant="light" />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-card">
+      <section className="pt-32 pb-20 bg-primary text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
-            <h1 className="text-sm font-mono uppercase tracking-wider text-primary mb-4">About</h1>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary mb-6">Tembalami</h2>
-            <p className="text-xl text-muted-foreground font-mono">
+            <h1 className="text-sm font-mono uppercase tracking-wider text-white/90 mb-4">About</h1>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Tembalami</h2>
+            <p className="text-xl text-white/90 font-mono">
               Zimbabwean Gospel Music Minister, Recording Artiste, Singer/Songwriter, and Music Producer
             </p>
           </div>

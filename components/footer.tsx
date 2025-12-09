@@ -22,7 +22,7 @@ const socialLinks = [
 
 export function Footer() {
   return (
-    <footer className="bg-secondary text-white">
+    <footer className="bg-primary text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-8 items-start">
           {/* Logo & Tagline */}
@@ -41,13 +41,13 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-mono uppercase tracking-wider text-sm mb-4 text-primary">Quick Links</h4>
+            <h4 className="font-mono uppercase tracking-wider text-sm mb-4 text-white">Quick Links</h4>
             <div className="grid grid-cols-2 gap-2">
               {footerLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-white/70 hover:text-white font-mono text-sm transition-colors"
+                  className="text-white/90 hover:text-white font-mono text-sm transition-colors"
                 >
                   {link.label}
                 </Link>
@@ -57,21 +57,21 @@ export function Footer() {
 
           {/* Social & Contact */}
           <div>
-            <h4 className="font-mono uppercase tracking-wider text-sm mb-4 text-primary">Connect</h4>
+            <h4 className="font-mono uppercase tracking-wider text-sm mb-4 text-white">Connect</h4>
             <div className="flex gap-4 mb-4">
               {socialLinks.map((social) => (
                 <a
                   key={social.label}
                   href={social.href}
-                  className="text-white/70 hover:text-primary transition-colors"
+                  className="text-white/90 hover:text-white transition-colors"
                   aria-label={social.label}
                 >
                   <social.icon className="h-5 w-5" />
                 </a>
               ))}
             </div>
-            <p className="text-white/70 font-mono text-sm">bookings@tembalami.com</p>
-            <p className="text-white/70 font-mono text-sm mt-1">Harare, Zimbabwe</p>
+            <p className="text-white/90 font-mono text-sm">bookings@tembalami.com</p>
+            <p className="text-white/90 font-mono text-sm mt-1">Harare, Zimbabwe</p>
           </div>
         </div>
 
