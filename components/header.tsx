@@ -28,9 +28,10 @@ export function Header({ variant = "dark" }: { variant?: "dark" | "light" }) {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
   const dropdownRef = useRef<HTMLDivElement>(null)
 
-  const textColor = variant === "dark" ? "text-white" : "text-secondary"
+  const textColor = variant === "dark" ? "text-white" : "text-primary"
   const bgColor = variant === "dark" ? "bg-secondary/95" : "bg-white/95"
   const dropdownBg = variant === "dark" ? "bg-secondary border-white/20" : "bg-white border-secondary/20"
+  const headerBg = variant === "light" ? "bg-white shadow-md" : ""
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -43,17 +44,17 @@ export function Header({ variant = "dark" }: { variant?: "dark" | "light" }) {
   }, [])
 
   return (
-    <header className={`absolute top-0 left-0 right-0 z-50 ${textColor}`}>
-      <div className="container mx-auto px-4 py-4">
+    <header className={`absolute top-0 left-0 right-0 z-50 ${textColor} ${headerBg}`}>
+      <div className="container mx-auto px-4 py-2">
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <Image
               src="/images/tembalami-logo-final.png"
               alt="Tembalami"
-              width={150}
-              height={45}
-              className="h-10 md:h-12 w-auto object-contain"
+              width={200}
+              height={60}
+              className="h-16 md:h-24 w-auto object-contain"
               priority
             />
           </Link>
@@ -110,7 +111,7 @@ export function Header({ variant = "dark" }: { variant?: "dark" | "light" }) {
           </div>
 
           {/* Mobile Menu Button */}
-          <Button variant="ghost" size="icon" className="lg:hidden" onClick={() => setIsOpen(!isOpen)}>
+          <Button variant="ghost" size="icon" className="lg:hidden text-white" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </Button>
         </nav>

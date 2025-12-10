@@ -44,11 +44,7 @@ const galleryImages = [
   "/inspired-worship/class-3.jpg",
   "/inspired-worship/class-4.jpg",
   "/inspired-worship/class-5.jpg",
-  "/images/img-20251201-wa0019.jpg",
-  "/images/img-20251201-wa0023.jpg",
-  "/images/img-20251201-wa0020.jpg",
-  "/images/img-20251201-wa0021.jpg",
-  "/images/img-20251202-wa0354.jpg",
+  // Marked picture
   "/images/img-20251201-wa0022.jpg",
 ]
 
@@ -78,7 +74,7 @@ export default function InspiredWorshipPage() {
               beyond.
             </p>
             <div className="inline-block bg-primary/20 border border-primary px-6 py-3">
-              <span className="font-mono text-primary">Launched June 2022</span>
+              <span className="font-bold text-white">Launched June 2022</span>
             </div>
           </div>
         </div>

@@ -39,13 +39,16 @@ export default function MerchandisePage() {
         <main>
             <Header variant="light" />
             <div className="min-h-screen bg-background pt-24 pb-12">
-                <div className="container mx-auto px-4">
-                    <div className="text-center mb-12">
+                <div className="bg-primary text-white py-16 mb-12 -mt-24 pt-32">
+                    <div className="container mx-auto px-4 text-center">
                         <h1 className="text-4xl md:text-5xl font-bold mb-4">Merchandise</h1>
-                        <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+                        <p className="text-white/80 text-lg max-w-2xl mx-auto">
                             Support the ministry and look great doing it. All t-shirts are available for just $10.
                         </p>
                     </div>
+                </div>
+
+                <div className="container mx-auto px-4">
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {merchandiseItems.map((item) => (
