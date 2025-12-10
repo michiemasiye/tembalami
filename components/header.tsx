@@ -49,7 +49,7 @@ export function Header({ variant = "dark" }: { variant?: "dark" | "light" }) {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/images/tembalami-logo-new.jpg"
+              src="/images/tembalami-logo-final.png"
               alt="Tembalami"
               width={150}
               height={45}

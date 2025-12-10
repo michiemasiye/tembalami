@@ -29,11 +29,11 @@ export function Footer() {
           <div>
             <Link href="/" className="inline-block mb-4">
               <Image
-                src="/images/tembalami-logo.jpg"
+                src="/images/tembalami-logo-final.png"
                 alt="Tembalami"
                 width={150}
                 height={45}
-                className="h-12 w-auto object-contain invert"
+                className="h-12 w-auto object-contain"
               />
             </Link>
             <p className="text-white/70 font-mono text-sm">Spreading the Gospel through worship and music ministry.</p>
