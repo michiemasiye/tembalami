@@ -31,7 +31,7 @@ export function ContactPreview() {
               </div>
               <div>
                 <h4 className="font-bold text-secondary mb-1">Email</h4>
-                <p className="text-muted-foreground font-mono text-sm">bookings@tembalami.com</p>
+                <p className="text-muted-foreground font-mono text-sm">booking@tembalami.com</p>
                 <p className="text-muted-foreground font-mono text-sm">admin@tembalami.com</p>
               </div>
             </div>
