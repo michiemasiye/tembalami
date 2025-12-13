@@ -3,6 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { useState, useRef, useEffect } from "react"
+import { usePathname } from "next/navigation"
 import { Menu, X, ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
@@ -27,6 +28,7 @@ export function Header({ variant = "dark" }: { variant?: "dark" | "light" }) {
   const [isOpen, setIsOpen] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
   const dropdownRef = useRef<HTMLDivElement>(null)
+  const pathname = usePathname()
 
   const textColor = variant === "dark" ? "text-white" : "text-primary"
   const bgColor = variant === "dark" ? "bg-secondary/95" : "bg-white/95"
@@ -43,6 +45,8 @@ export function Header({ variant = "dark" }: { variant?: "dark" | "light" }) {
     return () => document.removeEventListener("mousedown", handleClickOutside)
   }, [])
 
+  const logoSrc = pathname === "/" ? "/images/tembalami-white-logo.png" : "/images/tembalami-logo-final.png"
+
   return (
     <header className={`absolute top-0 left-0 right-0 z-50 ${textColor} ${headerBg}`}>
       <div className="container mx-auto px-4 py-2">
@@ -50,7 +54,7 @@ export function Header({ variant = "dark" }: { variant?: "dark" | "light" }) {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/images/tembalami-logo-final.png"
+              src={logoSrc}
               alt="Tembalami"
               width={200}
               height={60}

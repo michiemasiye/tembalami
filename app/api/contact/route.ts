@@ -12,7 +12,7 @@ export async function POST(request: Request) {
     // Create mailto link data for client-side email
     // In production, you would integrate with an email service like SendGrid, Resend, etc.
     const mailtoData = {
-      to: "bookings@tembalami.com",
+      to: "booking@tembalami.com",
       subject: `Website Contact: ${subject}`,
       body: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
     }

@@ -70,7 +70,7 @@ export function Footer() {
                 </a>
               ))}
             </div>
-            <p className="text-primary/80 font-mono text-sm">bookings@tembalami.com</p>
+            <p className="text-primary/80 font-mono text-sm">booking@tembalami.com</p>
             <p className="text-primary/80 font-mono text-sm mt-1">Harare, Zimbabwe</p>
           </div>
         </div>
