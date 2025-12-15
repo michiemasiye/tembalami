@@ -45,7 +45,7 @@ export function Header({ variant = "dark" }: { variant?: "dark" | "light" }) {
     return () => document.removeEventListener("mousedown", handleClickOutside)
   }, [])
 
-  const logoSrc = pathname === "/" ? "/images/tembalami-white-logo.png" : "/images/tembalami-logo-final.png"
+  const logoSrc = "/images/tembalami-logo-final.png"
 
   return (
     <header className={`absolute top-0 left-0 right-0 z-50 ${textColor} ${headerBg}`}>
@@ -58,7 +58,7 @@ export function Header({ variant = "dark" }: { variant?: "dark" | "light" }) {
               alt="Tembalami"
               width={200}
               height={60}
-              className="h-16 md:h-24 w-auto object-contain"
+              className={`h-16 md:h-24 w-auto object-contain ${pathname === "/" ? "brightness-0 invert" : ""}`}
               priority
             />
           </Link>
