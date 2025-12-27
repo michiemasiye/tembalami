@@ -4,6 +4,12 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
 import { Music, Mic, Users, Video, Lightbulb, Volume2 } from "lucide-react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Inspired Worship",
+  description: "Join the Inspired Worship conference for training and equipping in worship ministry.",
+}
 
 const masterclasses = [
   {

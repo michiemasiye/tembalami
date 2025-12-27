@@ -2,6 +2,13 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import Image from "next/image"
 
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "About",
+  description: "Learn about Tembalami's journey, his music ministry, and discography.",
+}
+
 export default function AboutPage() {
   return (
     <main>

@@ -4,6 +4,12 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
 import { Calendar, Music, Users, Heart } from "lucide-react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Partnerships",
+  description: "Partner with Tembalami for events, music collaborations, and ministry support.",
+}
 
 const partnershipTypes = [
   {

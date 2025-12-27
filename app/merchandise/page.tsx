@@ -1,5 +1,11 @@
 import Image from "next/image"
 import { Header } from "@/components/header"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+    title: "Merchandise",
+    description: "Buy Tembalami's official merchandise including t-shirts and accessories.",
+}
 
 const merchandiseItems = [
     {

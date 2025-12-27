@@ -2,6 +2,12 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import Image from "next/image"
 import { Play } from "lucide-react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Music",
+  description: "Listen to Tembalami's latest albums and singles. Experience gospel worship music.",
+}
 
 const albums = [
   {

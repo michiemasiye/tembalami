@@ -1,9 +1,16 @@
-"use client"
+
 
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { ExternalLink } from "lucide-react"
+
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Contact",
+  description: "Book Tembalami for your next event or get in touch regarding his ministry.",
+}
 
 export default function ContactPage() {
   return (
