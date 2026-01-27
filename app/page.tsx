@@ -6,6 +6,7 @@ import { MusicPreview } from "@/components/sections/music-preview"
 import { InspiredWorshipPreview } from "@/components/sections/inspired-worship-preview"
 import { PartnershipsPreview } from "@/components/sections/partnerships-preview"
 import { ContactPreview } from "@/components/sections/contact-preview"
+import { FireInEveryCity } from "@/components/sections/fire-in-every-city"
 
 export default function HomePage() {
   const jsonLd = {
@@ -39,6 +40,7 @@ export default function HomePage() {
       <AboutPreview />
       <MusicPreview />
       <InspiredWorshipPreview />
+      <FireInEveryCity />
       <PartnershipsPreview />
       <ContactPreview />
       <Footer />
