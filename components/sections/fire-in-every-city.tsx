@@ -11,40 +11,71 @@ export function FireInEveryCity() {
                     <h3 className="text-3xl md:text-5xl font-bold font-heading uppercase">Fire In Every City</h3>
                 </div>
 
-                <div className="grid lg:grid-cols-2 gap-12 items-start">
-                    {/* UK Event */}
+                <div className="grid lg:grid-cols-3 gap-8 items-start">
+                    {/* Bedford Event */}
                     <div className="flex flex-col items-center">
-                        <h4 className="text-2xl font-bold mb-6 font-heading text-center">United Kingdom</h4>
-                        <div className="relative w-full aspect-[3/4] max-w-md mb-8 shadow-2xl">
+                        <h4 className="text-2xl font-bold mb-6 font-heading text-center">UK - Bedford</h4>
+                        <div className="relative w-full aspect-[3/4] max-w-sm mb-8 shadow-2xl">
                             <Image
-                                src="/images/fire-in-every-city-uk.jpg"
-                                alt="Fire In Every City - UK Tour"
+                                src="/images/fire-bedford.jpg"
+                                alt="Fire In Every City - Bedford"
                                 fill
                                 className="object-cover rounded-lg"
                             />
                         </div>
-                        <div className="space-y-4 text-center">
-                            <div className="bg-secondary/5 p-6 rounded-lg border border-secondary/10 w-full max-w-md">
+                        <div className="space-y-4 text-center w-full max-w-sm">
+                            <div className="bg-secondary/5 p-6 rounded-lg border border-secondary/10 w-full">
                                 <p className="font-bold text-lg mb-2">APRIL 18 - BEDFORD</p>
-                                <p className="font-mono text-muted-foreground">King's House, 245 Ampthill Rd, MK42 9AZ</p>
-                            </div>
-                            <div className="bg-secondary/5 p-6 rounded-lg border border-secondary/10 w-full max-w-md">
-                                <p className="font-bold text-lg mb-2">APRIL 26 - MIDDLESBROUGH</p>
-                                <p className="font-mono text-muted-foreground">Victory House, 20 Brentnall Street, TS1 5AP</p>
+                                <p className="font-mono text-muted-foreground text-sm">King's House, 245 Ampthill Rd, MK42 9AZ</p>
                             </div>
 
                             <div className="pt-4">
                                 <Button
                                     asChild
                                     size="lg"
-                                    className="bg-black text-white hover:bg-gray-800 px-8 py-6 text-lg rounded-lg"
+                                    className="bg-black text-white hover:bg-gray-800 w-full"
                                 >
                                     <a
                                         href="https://tickets.tembalami.com"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        Buy Tickets
+                                        Buy Bedford Tickets
+                                    </a>
+                                </Button>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Middlesbrough Event */}
+                    <div className="flex flex-col items-center">
+                        <h4 className="text-2xl font-bold mb-6 font-heading text-center">UK - Middlesbrough</h4>
+                        <div className="relative w-full aspect-[3/4] max-w-sm mb-8 shadow-2xl">
+                            <Image
+                                src="/images/fire-middlesbrough.jpg"
+                                alt="Fire In Every City - Middlesbrough"
+                                fill
+                                className="object-cover rounded-lg"
+                            />
+                        </div>
+                        <div className="space-y-4 text-center w-full max-w-sm">
+                            <div className="bg-secondary/5 p-6 rounded-lg border border-secondary/10 w-full">
+                                <p className="font-bold text-lg mb-2">APRIL 26 - MIDDLESBROUGH</p>
+                                <p className="font-mono text-muted-foreground text-sm">Victory House, 20 Brentnall Street, TS1 5AP</p>
+                            </div>
+
+                            <div className="pt-4">
+                                <Button
+                                    asChild
+                                    size="lg"
+                                    className="bg-black text-white hover:bg-gray-800 w-full"
+                                >
+                                    <a
+                                        href="https://middlesbrough.tembalami.com"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Buy Middlesbrough Tickets
                                     </a>
                                 </Button>
                             </div>
@@ -54,7 +85,7 @@ export function FireInEveryCity() {
                     {/* Bulawayo Event */}
                     <div className="flex flex-col items-center">
                         <h4 className="text-2xl font-bold mb-6 font-heading text-center">Zimbabwe - Bulawayo</h4>
-                        <div className="relative w-full aspect-[4/5] max-w-md mb-8 shadow-2xl">
+                        <div className="relative w-full aspect-[4/5] max-w-sm mb-8 shadow-2xl">
                             <Image
                                 src="/images/fire-in-every-city-byo.jpg"
                                 alt="Fire In Every City - Bulawayo"
@@ -62,7 +93,7 @@ export function FireInEveryCity() {
                                 className="object-cover rounded-lg"
                             />
                         </div>
-                        <div className="space-y-4 text-center w-full max-w-md">
+                        <div className="space-y-4 text-center w-full max-w-sm">
                             <div className="bg-secondary/5 p-6 rounded-lg border border-secondary/10">
                                 <h5 className="font-bold text-lg mb-4 text-primary">TICKETS AVAILABLE AT:</h5>
                                 <ul className="space-y-3 font-mono text-sm">

@@ -37,10 +37,10 @@ export default function HomePage() {
       />
       <Header variant="dark" />
       <HeroSection />
+      <FireInEveryCity />
       <AboutPreview />
       <MusicPreview />
       <InspiredWorshipPreview />
-      <FireInEveryCity />
       <PartnershipsPreview />
       <ContactPreview />
       <Footer />
