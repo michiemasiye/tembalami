@@ -71,7 +71,7 @@ export function FireInEveryCity() {
                                     className="bg-black text-white hover:bg-gray-800 w-full"
                                 >
                                     <a
-                                        href="https://middlesbrough.tembalami.com"
+                                        href="https://tickets.tembalami.com"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
