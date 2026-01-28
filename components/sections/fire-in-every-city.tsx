@@ -108,17 +108,6 @@ export function FireInEveryCity() {
                                 </ul>
                             </div>
 
-                            <div className="grid grid-cols-2 gap-4">
-                                <div className="bg-primary/10 p-4 rounded-lg border border-primary/20">
-                                    <p className="text-xs uppercase tracking-wider mb-1">General</p>
-                                    <p className="text-3xl font-bold text-primary">$5</p>
-                                </div>
-                                <div className="bg-primary/10 p-4 rounded-lg border border-primary/20">
-                                    <p className="text-xs uppercase tracking-wider mb-1">V.I.P</p>
-                                    <p className="text-3xl font-bold text-primary">$20</p>
-                                </div>
-                            </div>
-
                             <div className="bg-secondary text-white p-4 rounded-lg">
                                 <p className="text-sm font-mono mb-1">FOR MORE INFO CALL / APP</p>
                                 <p className="text-xl font-bold">+263 783 350 654</p>
