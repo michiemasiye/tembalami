@@ -60,7 +60,7 @@ export function FireInEveryCity() {
                         </div>
                         <div className="space-y-4 text-center w-full max-w-sm">
                             <div className="bg-secondary/5 p-6 rounded-lg border border-secondary/10 w-full">
-                                <p className="font-bold text-lg mb-2">APRIL 26 - MIDDLESBROUGH</p>
+                                <p className="font-bold text-lg mb-2">APRIL 25 - MIDDLESBROUGH</p>
                                 <p className="font-mono text-muted-foreground text-sm">Victory House, 20 Brentnall Street, TS1 5AP</p>
                             </div>
 
